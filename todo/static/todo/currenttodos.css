@@ -1,0 +1,49 @@
+body{
+    background-color: #31572C;
+}
+a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 25px;
+    color: #90A955;
+}
+
+#base{
+    padding: 20px;
+    background-color: #4F772D;
+}
+
+#inside{
+    text-align: right;
+    padding: 20px;
+    color:#90A955;
+}
+
+#list{
+    padding: 50px;
+    color: #90A955;
+}
+
+label, input,span{
+    padding: 15px 45px 15px 15px;
+    color: #90A955;
+}
+
+h1,h2,p,button,#current{
+    text-align: center;
+    color: #90A955;
+}
+
+p{
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+
+#list b li a, #list b li{
+    color:#FC7300;
+}

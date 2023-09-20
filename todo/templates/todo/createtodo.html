@@ -1,0 +1,15 @@
+{% extends 'todo/base.html' %}
+{% block htmlhead %}
+{% load static %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="{% static 'todo/createtodo.css' %}">
+{% endblock htmlhead %}
+{% block content%}
+<h1>Create </h1>
+    <h2>{{error}}</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{form.as_p}}    
+        <p><button class="btn btn-success" type="submit">Create</button></p>
+    </form>
+    {% endblock %}

@@ -1,0 +1,49 @@
+body{
+    background-color: #31572C;
+}
+a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 25px;
+    color: #90A955;
+}
+
+#base{
+    text-align: right;
+    padding: 20px;
+    background-color: #4F772D;
+}
+
+.centered-div {
+    background-color: #4F772D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 55px 60px;
+    border-radius: 10%;
+}
+
+label, input, button,span{
+    padding: 4px 5px 4px 5px;
+    color: #90A955;
+}
+
+h1, h2,p{
+    text-align: center;
+    color: #90A955;
+}
+
+p{
+    padding-top: 20px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .centered-div { 
+        padding: 50px 100px; 
+    }
+}

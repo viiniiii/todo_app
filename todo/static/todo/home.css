@@ -1,0 +1,54 @@
+body{
+    background-color: #31572C;
+}
+a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 25px;
+    color: #90A955;
+}
+
+#base{
+    text-align: right;
+    padding: 20px;
+    background-color: #4F772D;
+}
+
+.centered-div {
+    background-color: #4F772D;
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    padding: 35px 65px;
+    border-radius: 12%;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+label, input, button,span{
+    padding: 5px;
+    color: #90A955;
+}
+
+h1, h2,p{
+    text-align: center;
+    color: #90A955;
+}
+
+
+p{
+    padding-top: 20px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .centered-div {
+        font-size: 16px; 
+        margin: 5% 5%; 
+    }
+}
